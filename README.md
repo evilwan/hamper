@@ -1,5 +1,10 @@
 # Hamper extension for Burpsuite
 
+## Notice
+
+Moved to [Codeberg](https://codeberg.org/evilwan/hamper) because of policy changes at Github (see
+[Github notice](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13) )
+
 ## Introduction
 
 Hamper is a Burpsuite extension for recording websocket messages to the local filesystem. The new Burpsuite extension API, called "Montoya", offers the option of intercepting all websocket messages. This extension does exactly that: from the moment that the extension is installed, or when Burpsuite starts up if the extension is loaded at startup, the extension will intercept all incoming and outgoing websocket messages and will record them in a file.
